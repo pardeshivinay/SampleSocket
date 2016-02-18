@@ -10,6 +10,6 @@ public class Test {
 		Socket socket= serverSocket.accept();
 		Channel channel = new SocketTest(socket);
 		Object message = channel.readData();
-		System.out.println("Message = "+message);
+		System.out.println("Message=== = "+message);
 	}
 }
